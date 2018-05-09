@@ -74,10 +74,10 @@ msgstr "インターネットに接続できません。コネクションを確
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to ravend to get live updates from the p2p network. (Tried "
-"connecting to ravend at {{host}}:{{port}} and failed.)"
+"Can't connect to cryptorescued to get live updates from the p2p network. (Tried "
+"connecting to cryptorescued at {{host}}:{{port}} and failed.)"
 msgstr ""
-"P2Pネットワークからライブ情報を取得するためにravendへ接続することができません"
+"P2Pネットワークからライブ情報を取得するためにcryptorescuedへ接続することができません"
 "でした。({{host}}:{{port}} への接続を試みましたが、失敗しました。)"
 
 #: public/views/status.html
@@ -198,8 +198,8 @@ msgid "Last Block"
 msgstr "直前のブロック"
 
 #: public/views/status.html
-msgid "Last Block Hash (Ravend)"
-msgstr "直前のブロックのハッシュ値 (Ravend)"
+msgid "Last Block Hash (CryptoRescued)"
+msgstr "直前のブロックのハッシュ値 (CryptoRescued)"
 
 #: public/views/index.html
 msgid "Latest Blocks"
@@ -307,20 +307,20 @@ msgid "PSA for Pool Operators:"
 msgstr "プール運営者のための公共サービスアナウンス："
 
 #: public/views/messages_verify.html
-msgid "Ravencoin comes with a way of signing arbitrary messages."
-msgstr "Ravencoinには任意のメッセージを署名する昨日が備わっています。"
+msgid "CryptoRescue comes with a way of signing arbitrary messages."
+msgstr "CryptoRescueには任意のメッセージを署名する昨日が備わっています。"
 
 #: public/views/index.html
-msgid "Ravencoin Community"
-msgstr "Ravencoinコミュニティ"
+msgid "CryptoRescue Community"
+msgstr "CryptoRescueコミュニティ"
 
 #: public/views/status.html
-msgid "Ravencoin node information"
-msgstr "Ravencoinノード情報"
+msgid "CryptoRescue node information"
+msgstr "CryptoRescueノード情報"
 
 #: public/views/index.html
-msgid "Ravencore"
-msgstr "Ravencore"
+msgid "CryptoRescueCore"
+msgstr "CryptoRescueCore"
 
 #: public/views/transaction_sendraw.html
 msgid "Raw transaction data"
@@ -430,17 +430,17 @@ msgstr "このアドレスに対するトランザクションはありません
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\n"
-"        the Ravencoin network."
+"        the CryptoRescue network."
 msgstr ""
-"このフォームでは、16進数フォーマットの生のトランザクションをRavencoinネット"
+"このフォームでは、16進数フォーマットの生のトランザクションをCryptoRescueネット"
 "ワーク上に配信することができます。"
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\n"
-"        a specific Ravencoin address."
+"        a specific CryptoRescue address."
 msgstr ""
-"このフォームでは、メッセージが特定のRavencoinアドレスから来たかどうかを検証す"
+"このフォームでは、メッセージが特定のCryptoRescueアドレスから来たかどうかを検証す"
 "ることができます。"
 
 #: public/views/status.html
@@ -518,27 +518,27 @@ msgstr "トランザクションを待っています..."
 
 #~ msgid ""
 #~ "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" "
-#~ "target=\"_blank\">open-source Ravencoin blockchain explorer</a> with "
+#~ "target=\"_blank\">open-source CryptoRescue blockchain explorer</a> with "
 #~ "complete REST and websocket APIs that can be used for writing web wallets "
 #~ "and other apps  that need more advanced blockchain queries than provided "
-#~ "by ravend RPC.  Check out the <a href=\"https://github.com/underdarkskies/"
+#~ "by cryptorescued RPC.  Check out the <a href=\"https://github.com/cryptorescue-project/"
 #~ "insight-ui\" target=\"_blank\">source code</a>."
 #~ msgstr ""
-#~ "<strong>insight</strong>は、ravend RPCの提供するものよりも詳細なブロック"
+#~ "<strong>insight</strong>は、cryptorescued RPCの提供するものよりも詳細なブロック"
 #~ "チェインへの問い合わせを必要とするウェブウォレットやその他のアプリを書くの"
 #~ "に使える、完全なRESTおよびwebsocket APIを備えた<a href=\"http://live."
 #~ "insight.is/\" target=\"_blank\">オープンソースのビットコインブロックエクス"
-#~ "プローラ</a>です。<a href=\"https://github.com/underdarkskies/insight-ui"
+#~ "プローラ</a>です。<a href=\"https://github.com/cryptorescue-project/insight-ui"
 #~ "\" target=\"_blank\">ソースコード</a>を確認"
 
 #~ msgid ""
 #~ "<strong>insight</strong> is still in development, so be sure to report "
 #~ "any bugs and provide feedback for improvement at our <a href=\"https://"
-#~ "github.com/underdarkskies/insight/issues\" target=\"_blank\">github issue "
+#~ "github.com/cryptorescue-project/insight/issues\" target=\"_blank\">github issue "
 #~ "tracker</a>."
 #~ msgstr ""
 #~ "<strong>insight</strong>は現在開発中です。<a href=\"https://github.com/"
-#~ "underdarkskies/insight/issues\" target=\"_blank\">githubのissueトラッカ</"
+#~ "cryptorescue-project/insight/issues\" target=\"_blank\">githubのissueトラッカ</"
 #~ "a>にてバグの報告や改善案の提案をお願いします。"
 
 #~ msgid "About"
@@ -563,7 +563,7 @@ msgstr "トランザクションを待っています..."
 #~ msgstr "テストネット"
 
 #~ msgid "Total Amount"
-#~ msgstr "Ravencoin総量"
+#~ msgstr "CryptoRescue総量"
 
 #~ msgid "Transaction Output Set Information"
 #~ msgstr "トランザクションの出力セット情報"

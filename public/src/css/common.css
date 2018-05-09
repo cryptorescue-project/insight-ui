@@ -6636,7 +6636,7 @@ body,html {
     background-size: 80px
 }
 
-#powered a.ravencoin,#powered a.twitter {
+#powered a.cryptorescue,#powered a.twitter {
     width: 20%;
     background-size: 80px
 }
@@ -6663,7 +6663,7 @@ body,html {
     background-image: url(../img/discord.png)
 }
 
-#powered a.ravencoin {
+#powered a.cryptorescue {
     background-image: url(../img/github.png)
 }
 

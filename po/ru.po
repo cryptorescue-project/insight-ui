@@ -77,11 +77,11 @@ msgstr "Не удается подключиться к Интернету. Пр
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to ravend to get live updates from the p2p network. (Tried "
-"connecting to ravend at {{host}}:{{port}} and failed.)"
+"Can't connect to cryptorescued to get live updates from the p2p network. (Tried "
+"connecting to cryptorescued at {{host}}:{{port}} and failed.)"
 msgstr ""
-"Невозможно подключиться к ravend для получения живых обновлений из сети p2p. "
-"(Пробовал подключиться к ravend на {{host}}: {{port}} и не удалось.)"
+"Невозможно подключиться к cryptorescued для получения живых обновлений из сети p2p. "
+"(Пробовал подключиться к cryptorescued на {{host}}: {{port}} и не удалось.)"
 
 #: public/views/status.html
 msgid "Complete"
@@ -201,8 +201,8 @@ msgid "Last Block"
 msgstr "Последний блок"
 
 #: public/views/status.html
-msgid "Last Block Hash (Ravend)"
-msgstr "Хранение последнего блока (Ravend)"
+msgid "Last Block Hash (CryptoRescued)"
+msgstr "Хранение последнего блока (CryptoRescued)"
 
 #: public/views/index.html
 msgid "Latest Blocks"
@@ -310,20 +310,20 @@ msgid "PSA for Pool Operators:"
 msgstr "Объявление о публикации для операторов пула:"
 
 #: public/views/messages_verify.html
-msgid "Ravencoin comes with a way of signing arbitrary messages."
-msgstr "Ravencoin имеет способ подписания произвольных сообщений."
+msgid "CryptoRescue comes with a way of signing arbitrary messages."
+msgstr "CryptoRescue имеет способ подписания произвольных сообщений."
 
 #: public/views/index.html
-msgid "Ravencoin Community"
-msgstr "Сообщество Ravencoin"
+msgid "CryptoRescue Community"
+msgstr "Сообщество CryptoRescue"
 
 #: public/views/status.html
-msgid "Ravencoin node information"
-msgstr "Информация о узле Ravencoin"
+msgid "CryptoRescue node information"
+msgstr "Информация о узле CryptoRescue"
 
 #: public/views/index.html
-msgid "Ravencore"
-msgstr "Ravencore"
+msgid "CryptoRescueCore"
+msgstr "CryptoRescueCore"
 
 #: public/views/transaction_sendraw.html
 msgid "Raw transaction data"
@@ -435,15 +435,15 @@ msgstr "С этим адресом нет транзакций."
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\n"
-"        the Ravencoin network."
+"        the CryptoRescue network."
 msgstr ""
 "Эта форма может использоваться для трансляции исходной транзакции\n"
-"        в шестнадцатеричном формате сети Ravencoin."
+"        в шестнадцатеричном формате сети CryptoRescue."
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\n"
-"        a specific Ravencoin address."
+"        a specific CryptoRescue address."
 msgstr ""
 "Эта форма может использоваться для проверки того, что\n"
 "        сообщение поступает из конкретный адрес Равенкойна."

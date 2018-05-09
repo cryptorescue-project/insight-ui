@@ -77,11 +77,11 @@ msgstr "Keine Verbindung zum Internet möglich, bitte Zugangsdaten prüfen."
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to ravend to get live updates from the p2p network. (Tried "
-"connecting to ravend at {{host}}:{{port}} and failed.)"
+"Can't connect to cryptorescued to get live updates from the p2p network. (Tried "
+"connecting to cryptorescued at {{host}}:{{port}} and failed.)"
 msgstr ""
-"Es ist nicht möglich mit Ravencoind zu verbinden um live Aktualisierungen "
-"vom P2P Netzwerk zu erhalten. (Verbindungsversuch zu ravend an {{host}}:"
+"Es ist nicht möglich mit CryptoRescued zu verbinden um live Aktualisierungen "
+"vom P2P Netzwerk zu erhalten. (Verbindungsversuch zu cryptorescued an {{host}}:"
 "{{port}} ist fehlgeschlagen.)"
 
 #: public/views/status.html
@@ -202,8 +202,8 @@ msgid "Last Block"
 msgstr "Letzter Block"
 
 #: public/views/status.html
-msgid "Last Block Hash (Ravend)"
-msgstr "Letzter Hash (Ravend)"
+msgid "Last Block Hash (CryptoRescued)"
+msgstr "Letzter Hash (CryptoRescued)"
 
 #: public/views/index.html
 msgid "Latest Blocks"
@@ -311,20 +311,20 @@ msgid "PSA for Pool Operators:"
 msgstr "Öffentliche Bekanntmachung für Poolbetreiber:"
 
 #: public/views/messages_verify.html
-msgid "Ravencoin comes with a way of signing arbitrary messages."
-msgstr "Ravencoin bietet eine Möglichkeit, beliebige Nachrichten zu signieren."
+msgid "CryptoRescue comes with a way of signing arbitrary messages."
+msgstr "CryptoRescue bietet eine Möglichkeit, beliebige Nachrichten zu signieren."
 
 #: public/views/index.html
-msgid "Ravencoin Community"
-msgstr "Ravencoin Gemeinschaft"
+msgid "CryptoRescue Community"
+msgstr "CryptoRescue Gemeinschaft"
 
 #: public/views/status.html
-msgid "Ravencoin node information"
-msgstr "Ravencoin-Node Info"
+msgid "CryptoRescue node information"
+msgstr "CryptoRescue-Node Info"
 
 #: public/views/index.html
-msgid "Ravencore"
-msgstr "Ravencore"
+msgid "CryptoRescueCore"
+msgstr "CryptoRescueCore"
 
 #: public/views/transaction_sendraw.html
 msgid "Raw transaction data"
@@ -435,18 +435,18 @@ msgstr "Es gibt keine Transaktionen zu dieser Adressse."
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\n"
-"        the Ravencoin network."
+"        the CryptoRescue network."
 msgstr ""
 "Dieses Formular kann verwendet werden, um eine unbearbeitete Transaktion\n"
-"        im Hex-Format zu übertragen das Ravencoin-Netzwerk."
+"        im Hex-Format zu übertragen das CryptoRescue-Netzwerk."
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\n"
-"        a specific Ravencoin address."
+"        a specific CryptoRescue address."
 msgstr ""
 "Dieses Formular kann verwendet werden, um zu überprüfen, ob\n"
-"        eine Nachricht stammt eine spezifische Ravencoin-Adresse."
+"        eine Nachricht stammt eine spezifische CryptoRescue-Adresse."
 
 #: public/views/status.html
 msgid "Time Offset"
@@ -523,30 +523,30 @@ msgstr "Warte auf Transaktionen..."
 
 #~ msgid ""
 #~ "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" "
-#~ "target=\"_blank\">open-source Ravencoin blockchain explorer</a> with "
+#~ "target=\"_blank\">open-source CryptoRescue blockchain explorer</a> with "
 #~ "complete REST and websocket APIs that can be used for writing web wallets "
 #~ "and other apps  that need more advanced blockchain queries than provided "
-#~ "by ravend RPC.  Check out the <a href=\"https://github.com/underdarkskies/"
+#~ "by cryptorescued RPC.  Check out the <a href=\"https://github.com/cryptorescue-project/"
 #~ "insight-ui\" target=\"_blank\">source code</a>."
 #~ msgstr ""
 #~ "<strong>insight</strong> ist ein <a href=\"http://live.insight.is/\" "
-#~ "target=\"_blank\">Open Source Ravencoin Blockchain Explorer</a> mit "
+#~ "target=\"_blank\">Open Source CryptoRescue Blockchain Explorer</a> mit "
 #~ "vollständigen REST und Websocket APIs um eigene Wallets oder "
 #~ "Applikationen zu implementieren. Hierbei werden fortschrittlichere "
-#~ "Abfragen der Blockchain ermöglicht, bei denen die RPC des Ravencoind "
+#~ "Abfragen der Blockchain ermöglicht, bei denen die RPC des CryptoRescued "
 #~ "nicht mehr ausreichen. Der aktuelle <a href=\"https://github.com/"
-#~ "underdarkskies/insight-ui\" target=\"_blank\">Quellcode</a> ist auf "
+#~ "cryptorescue-project/insight-ui\" target=\"_blank\">Quellcode</a> ist auf "
 #~ "Github zu finden."
 
 #~ msgid ""
 #~ "<strong>insight</strong> is still in development, so be sure to report "
 #~ "any bugs and provide feedback for improvement at our <a href=\"https://"
-#~ "github.com/underdarkskies/insight/issues\" target=\"_blank\">github issue "
+#~ "github.com/cryptorescue-project/insight/issues\" target=\"_blank\">github issue "
 #~ "tracker</a>."
 #~ msgstr ""
 #~ "<strong>insight</strong> befindet sich aktuell noch in der Entwicklung. "
 #~ "Bitte sende alle gefundenen Fehler (Bugs) und Feedback zur weiteren "
-#~ "Verbesserung an unseren <a href=\"https://github.com/underdarkskies/"
+#~ "Verbesserung an unseren <a href=\"https://github.com/cryptorescue-project/"
 #~ "insight-ui/issues\" target=\"_blank\">Github Issue Tracker</a>."
 
 #~ msgid "About"
