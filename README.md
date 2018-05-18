@@ -76,6 +76,43 @@ For more details about the [Insight API](https://github.com/cryptorescue-project
 
 Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/cryptorescue-project/insight-ui).
 
+## PSA for Pool Hosts
+```PSA for Pool Operators:
+
+Yiimp Pool operators:
+You can customize your coinbase value to identify your pool on the blockchain!
+Why? this will allow block explorers to drive traffic to your pool!
+Open up */stratum/coinbase.cpp in your favorite editor
+Edit the  hex value from this line: "char script2[32] = "7969696d7000"; // "yiimp\0" in hex ascii"
+https://github.com/tpruvot/yiimp/blob/next/stratum/coinbase.cpp#L82
+
+Procedure:
+1)the name MUST be no more than 15 ASCII characters in length
+2)convert your name to hex with https://www.rapidtables.com/convert/number/ascii-to-hex.html
+	for example: hextestforpool becomes 68 65 78 74 65 73 74 66 6f 72 70 6f 6f 6c
+3)You MUST append 00 to the number you recieved in step 2
+	for example: 756e64657269736772656174212121 becomes 68657874657374666f72706f6f6c0000
+4)replace 7969696d7000 with your number on line(82): "char script2[32] = "7969696d7000"; // "yiimp\0" in hex ascii"
+5) recompile yiimp source code
+6) DM me(Mafalate) on discord, the (up to) 15 ASCII characters you chose, and I'll add it to the explorer
+7)profit!
+
+
+NOMP Pool operators:
+You can customize your coinbase value to identify your pool on the blockchain!
+Why? this will allow block explorers to drive traffic to your pool!
+open up */node_modules/stratum-pool/lib/transactions.js in your favorite editor
+Edit the string from this line: "var scriptSigPart2 = util.serializeString('/nodeStratum/');
+https://github.com/foxer666/node-stratum-pool/blob/master/lib/transactions.js#L185
+
+Procedure:
+1)replace /nodeStratum/ with the name(any length) of your pool. The forward slashes are optional, but improve readability
+2)Be sure to leave the leave the single quotation marks in place
+	for example: change ('/nodeStratum/') to ('/CPR Pool/')
+3)Restart NOMP 
+4)DM me(Mafalate) on discord, what you changed the value to, and I'll add it to the explorer
+5)Profit!
+```
 
 ## License
 (The MIT License)
