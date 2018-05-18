@@ -91,7 +91,7 @@ Procedure:
 2)convert your name to hex with https://www.rapidtables.com/convert/number/ascii-to-hex.html
 	for example: hextestforpool becomes 68 65 78 74 65 73 74 66 6f 72 70 6f 6f 6c
 3)You MUST append 00 to the number you recieved in step 2
-	for example: 756e64657269736772656174212121 becomes 68657874657374666f72706f6f6c0000
+	for example: 68657874657374666f72706f6f6c becomes 68657874657374666f72706f6f6c00
 4)replace 7969696d7000 with your number on line(82): "char script2[32] = "7969696d7000"; // "yiimp\0" in hex ascii"
 5) recompile yiimp source code
 6) DM me(Mafalate) on discord, the (up to) 15 ASCII characters you chose, and I'll add it to the explorer
